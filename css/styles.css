@@ -306,7 +306,8 @@ figure {
 
 img,
 svg {
-  vertical-align: middle;
+    width: 50px; /* 任意のサイズ */
+    height: 50px; /* 任意のサイズ */
 }
 
 table {
