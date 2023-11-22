@@ -306,8 +306,8 @@ figure {
 
 img,
 svg {
-    width: 50px; /* 任意のサイズ */
-    height: 50px; /* 任意のサイズ */
+    width: 80px; /* 任意のサイズ */
+    height: 80px; /* 任意のサイズ */
 }
 
 table {
