@@ -10946,7 +10946,7 @@ p {
     margin-right: 0;
   }
 }
-header.masthead {
+/*header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
@@ -10958,6 +10958,16 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+}*/
+header.masthead {
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background: 
+    url("../assets/img/2023素材例/外観.jpg") center center / cover no-repeat,
+    url("../assets/img/2023素材例/内装１.jpg") center center / cover no-repeat,
+    url("../assets/img/2023素材例/内装２.jpg") center center / cover no-repeat;
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
