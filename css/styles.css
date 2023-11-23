@@ -307,9 +307,12 @@ figure {
 img,
 svg {
   vertical-align: middle;
-  width: 150px;
-  height: 150px;
 }
+.navbar-brand img {
+    width: 100px; /* 適切なサイズに調整 */
+    height: 100px; /* 適切なサイズに調整 */
+}
+
 
 table {
   caption-side: bottom;
