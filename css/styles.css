@@ -308,6 +308,10 @@ img,
 svg {
   vertical-align: middle;
 }
+.navbar-brand img {
+    width: 200px; /* 適切なサイズに調整 */
+    height: 200px; /* 適切なサイズに調整 */
+}
 
 table {
   caption-side: bottom;
