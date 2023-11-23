@@ -11321,11 +11321,13 @@ section#contact form#contactForm :-ms-input-placeholder {
 /* 横並びの画像 */
 .portfolio-images {
     display: flex;
+    flex-wrap: wrap; /* 画像が横一列に収まらない場合に改行する */
     justify-content: space-between;
 }
 
 /* 画像のスタイル */
 .portfolio-images img {
     width: calc(33.33% - 10px); /* 画像の幅を調整（各画像の幅が33.33%になるように） */
-    margin-right: 10px; /* 画像間の間隔を設定 */
+    margin-bottom: 10px; /* 画像の下に間隔を設定 */
 }
+
